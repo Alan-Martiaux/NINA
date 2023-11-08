@@ -26,7 +26,7 @@ Header unset Cache-Control
 </FilesMatch>
 </IfModule>
 # END Cache-Control 
-Cache-Control: max-age=31536000
+
 # BEGIN Expires Headers
 <IfModule mod_expires.c>
 ExpiresActive On
