@@ -40,7 +40,7 @@ ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 Header unset ETag
 FileETag None
 <ifModule mod_headers.c>
-<filesMatch "\.(ico|jpe?g|png|gif|swf|webp)$">
+<filesMatch "\.(ico|jpe?g|png|gif|swf)$">
 Header set Cache-Control "public"
 </filesMatch>
 <filesMatch "\.(css)$">
